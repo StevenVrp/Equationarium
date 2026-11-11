@@ -1,0 +1,7 @@
+{
+  "name": "equationarium",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"test": "node --test tests/*.test.mjs", "math": "node scripts/render-math.mjs", "start": "python3 -m http.server 8000 --directory dist"}
+}
